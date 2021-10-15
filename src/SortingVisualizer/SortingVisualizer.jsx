@@ -102,6 +102,9 @@ class SortingVisualizer extends React.Component {
                 {/* <button onClick={() => this.bubbleSort()}>
                     Bubble Sort
                 </button> */}
+                <button onClick={() => this.testSortingAlgorithms()}>
+                    Test Sorting Algorithms
+                </button>
             </div>
         )
     }
